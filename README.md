@@ -17,6 +17,9 @@ How to use:
 5. Compile test target again. It should succeed.
 6. Run tests. `test_secondExample()` should fail.
 
-As I've written in the comments in the test file this is because each target gets a different set of symbols when each imports the framework and the classes are in fact not equal.
+What I mean by broken:
+
+1. The first test case (`test_firstExample()`) fails because compilation fails when trying to use the ComScore class `SCORAnalytics`. It should not fail because of line 11 where we import the main target (more specifically the main bundle) using `@testable`. This attribute exists for testing public or internal entities in a test bundle such as our test target. 
+2. The second test case (`test_secondExample()`) fails because we compare the class `SCORAnalytics` from our main target with the class `SCORAnalytics` from out test target. As I've written in the comments in the test file this is because each target gets a different set of symbols when each imports the framework and the classes are in fact not equal.
 
 This should be fixed because a lot of (albeit far from enough) developers work using TDD and not being able to properly link a framework to a test target makes this impossible.
