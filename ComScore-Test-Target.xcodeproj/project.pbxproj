@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F278E4EB1ED85CC400042464 /* ComScore_Test_TargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2A96D1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift */; };
 		F2B2A9591ED84D6700BA5BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2A9581ED84D6700BA5BFE /* AppDelegate.swift */; };
 		F2B2A95B1ED84D6700BA5BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2A95A1ED84D6700BA5BFE /* ViewController.swift */; };
 		F2B2A95E1ED84D6700BA5BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B2A95C1ED84D6700BA5BFE /* Main.storyboard */; };
 		F2B2A9601ED84D6700BA5BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B2A95F1ED84D6700BA5BFE /* Assets.xcassets */; };
 		F2B2A9631ED84D6700BA5BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B2A9611ED84D6700BA5BFE /* LaunchScreen.storyboard */; };
-		F2B2A96E1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2A96D1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift */; };
 		F2B2A9791ED84DB300BA5BFE /* ComScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B2A9781ED84DB300BA5BFE /* ComScore.framework */; };
-		F2B2A97A1ED84DB300BA5BFE /* ComScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B2A9781ED84DB300BA5BFE /* ComScore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B2A97A1ED84DB300BA5BFE /* ComScore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B2A96E1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift in Sources */,
+				F278E4EB1ED85CC400042464 /* ComScore_Test_TargetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +428,7 @@
 				F2B2A9741ED84D6700BA5BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2B2A9751ED84D6700BA5BFE /* Build configuration list for PBXNativeTarget "ComScore-Test-TargetTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +437,7 @@
 				F2B2A9771ED84D6700BA5BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

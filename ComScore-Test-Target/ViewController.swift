@@ -15,4 +15,3 @@ class ViewController: UIViewController {
     let scorAnalyticsClass = SCORAnalytics.self
 
 }
-
