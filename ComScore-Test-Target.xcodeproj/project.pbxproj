@@ -13,6 +13,8 @@
 		F2B2A9601ED84D6700BA5BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B2A95F1ED84D6700BA5BFE /* Assets.xcassets */; };
 		F2B2A9631ED84D6700BA5BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B2A9611ED84D6700BA5BFE /* LaunchScreen.storyboard */; };
 		F2B2A96E1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2A96D1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift */; };
+		F2B2A9791ED84DB300BA5BFE /* ComScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B2A9781ED84DB300BA5BFE /* ComScore.framework */; };
+		F2B2A97A1ED84DB300BA5BFE /* ComScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B2A9781ED84DB300BA5BFE /* ComScore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		F2B2A9691ED84D6700BA5BFE /* ComScore-Test-TargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ComScore-Test-TargetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B2A96D1ED84D6700BA5BFE /* ComScore_Test_TargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComScore_Test_TargetTests.swift; sourceTree = "<group>"; };
 		F2B2A96F1ED84D6700BA5BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B2A9781ED84DB300BA5BFE /* ComScore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ComScore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B2A9791ED84DB300BA5BFE /* ComScore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B2A97A1ED84DB300BA5BFE /* ComScore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				F2B2A95F1ED84D6700BA5BFE /* Assets.xcassets */,
 				F2B2A9611ED84D6700BA5BFE /* LaunchScreen.storyboard */,
 				F2B2A9641ED84D6700BA5BFE /* Info.plist */,
+				F2B2A9781ED84DB300BA5BFE /* ComScore.framework */,
 			);
 			path = "ComScore-Test-Target";
 			sourceTree = "<group>";
@@ -341,6 +347,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ComScore-Test-Target",
+				);
 				INFOPLIST_FILE = "ComScore-Test-Target/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "broken.ComScore-Test-Target";
@@ -353,6 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ComScore-Test-Target",
+				);
 				INFOPLIST_FILE = "ComScore-Test-Target/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "broken.ComScore-Test-Target";
@@ -366,6 +380,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ComScore-Test-Target",
+				);
 				INFOPLIST_FILE = "ComScore-Test-TargetTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "broken.ComScore-Test-TargetTests";
@@ -380,6 +398,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ComScore-Test-Target",
+				);
 				INFOPLIST_FILE = "ComScore-Test-TargetTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "broken.ComScore-Test-TargetTests";
