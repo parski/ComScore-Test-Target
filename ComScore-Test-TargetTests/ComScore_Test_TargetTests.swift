@@ -12,7 +12,7 @@ import XCTest
 
 class ComScore_Test_TargetTests: XCTestCase {
     
-    func test_firstExamble() {
+    func test_firstExample() {
         
         /* Problem illustration:
          
